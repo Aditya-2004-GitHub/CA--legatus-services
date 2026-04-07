@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid mx-3">
+  <div class="container">
     <a class="navbar-brand" routerLink="/">
       <img src="logo.png" alt="Logo" class="nav-logo">
       <div style="display: flex; flex-direction: column; line-height: 1;">
@@ -16,31 +16,39 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Startup</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" routerLink="/service/pvt-ltd-company" (click)="closeNavbar()"><i class="fas fa-building me-2"
-                  style="color:var(--gold); font-size:0.7rem;"></i>Private Limited Company</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/llp-registration"><i class="fas fa-handshake me-2"
-                  style="color:var(--gold); font-size:0.7rem;"></i>LLP Registration</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/one-person-company"><i class="fas fa-user me-2"
-                  style="color:var(--gold); font-size:0.7rem;"></i>One Person Company</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/section-8-company"><i class="fas fa-heart me-2"
-                  style="color:var(--gold); font-size:0.7rem;"></i>Section 8 Company</a></li>
+            <li><a class="dropdown-item" routerLink="/service/pvt-ltd-company" (click)="closeNavbar()"><i
+                  class="fas fa-building me-2" style="color:var(--gold); font-size:0.7rem;"></i>Private Limited
+                Company</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/llp-registration"><i
+                  class="fas fa-handshake me-2" style="color:var(--gold); font-size:0.7rem;"></i>LLP Registration</a>
+            </li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/one-person-company"><i
+                  class="fas fa-user me-2" style="color:var(--gold); font-size:0.7rem;"></i>One Person Company</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/section-8-company"><i
+                  class="fas fa-heart me-2" style="color:var(--gold); font-size:0.7rem;"></i>Section 8 Company</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Registrations</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/partnership-firm">Partnership Firm</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/proprietorship">Proprietorship</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/msme-registration">MSME Registration</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/partnership-firm">Partnership
+                Firm</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/proprietorship">Proprietorship</a>
+            </li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/msme-registration">MSME
+                Registration</a></li>
             <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/pan-tan">PAN / TAN</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">GST</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/gst-registration">GST Registration</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/gst-return-filing">GST Return Filing</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/gst-cancellation">GST Cancellation</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/gst-registration">GST
+                Registration</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/gst-return-filing">GST Return
+                Filing</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/gst-cancellation">GST
+                Cancellation</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -53,17 +61,22 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">MCA</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/company-incorporation">Company Incorporation</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/company-incorporation">Company
+                Incorporation</a></li>
             <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/roc-filing">ROC Filing</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/annual-compliance">Annual Compliance</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/annual-compliance">Annual
+                Compliance</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Compliance</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/pf-registration">PF Registration & Filing</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/esi-registration">ESI Registration & Filing</a></li>
-            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/payroll-services">Payroll Services</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/pf-registration">PF Registration &
+                Filing</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/esi-registration">ESI Registration
+                & Filing</a></li>
+            <li><a class="dropdown-item" (click)="closeNavbar()" routerLink="/service/payroll-services">Payroll
+                Services</a></li>
           </ul>
         </li>
       </ul>
